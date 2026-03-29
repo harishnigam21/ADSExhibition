@@ -1,81 +1,123 @@
-🚀 ADS Exhibition Website
+# 🚀 ADS Exhibition  
 
-🌐 Overview
+<p align="center">
+  <b>Exhibition & Portfolio Website with Admin Dashboard</b><br/>
+  <i>Built using PHP, MySQL & Bootstrap</i>
+</p>
 
-ADS Exhibition is a dynamic exhibition and portfolio website built to showcase projects, innovations, and client work. It includes a responsive frontend, media-rich gallery, and a powerful admin panel for managing content, users, and interactions.
+---
 
-✨ Features
+## 📌 About The Project  
 
-🌍 User Side
-Multi-page website:
-Home, About Us, Contact Us
-Gallery, Innovations, Mission
-Clients & Portfolio sections
-Fully responsive design
-Dynamic gallery:
-Supports images (.jpg, .png) and videos (.mp4)
-Client-side filtering
-Optimized aspect-ratio handling
-Contact form with:
-Database storage
-Email trigger system
-Subscription system
+ADS Exhibition is a **dynamic exhibition and portfolio website** designed to showcase innovations, client work, and business information.
 
-🛠️ Admin Panel
-Secure admin login & session management
-Dashboard to manage:
-Contacts
-Subscribers
-Testimonials
-Portfolio / Store data
-Profile management system
+It combines:
+- 🌐 Responsive frontend  
+- 🖼️ Media-rich gallery  
+- 🛠️ Powerful admin panel  
 
-⚙️ Backend Highlights
-Modular PHP architecture
-MySQL database integration
-Config-based setup (config.php, database.php)
-Clean routing using .htaccess
-Sitemap & Google site verification
+---
 
-🛠️ Tech Stack
-php, mysql, javascript, bootstrap, html, css
+## ✨ Key Features  
 
-📂 Project Structure
-/adminPanel
-├── models/
-├── config/
-├── assets/
-├── dashboard/
-├── profile/
+### 🌐 Frontend  
+- Multi-page website:
+  - Home  
+  - About Us  
+  - Contact Us  
+  - Gallery  
+  - Innovations  
+  - Mission  
+  - Clients  
+- Fully responsive design  
+- Dynamic gallery:
+  - Supports images (`.jpg`, `.png`)  
+  - Supports videos (`.mp4`)  
+  - Client-side filtering  
+- Contact form:
+  - Stores data in database  
+  - Email trigger integration  
+- Subscription system  
 
-/assets
-├── css/
-├── js/
-├── images/
+---
 
-/structure
-├── header.php
-├── footer.php
-├── menu.php
+### ⚙️ Admin Panel  
+- Secure login & session management  
+- Dashboard to manage:
+  - 📩 Contacts  
+  - 📧 Subscribers  
+  - 🧾 Testimonials  
+  - 🛍️ Store / portfolio data  
+- Profile management system  
 
-/pages
-├── index.php
-├── about-us.php
-├── contact-us.php
-├── gallery.php
-├── innovations.php
-├── mission.php
-├── our-clients.php
+---
 
-📈 Future Improvements
-Add CSRF protection & stronger validation
-Role-based access control (RBAC)
-Performance optimization (lazy loading, CDN)
-Convert to modern stack (Laravel / Next.js)
+### 🧠 Backend Highlights  
+- Modular PHP architecture  
+- MySQL database integration  
+- Clean routing using `.htaccess`  
+- Config files:
+  - `config.php`  
+  - `database.php`  
+- Sitemap & Google verification support  
+
+---
+
+## 🛠️ Tech Stack  
+
+- PHP  
+- MySQL  
+- JavaScript  
+- Bootstrap  
+- HTML  
+- CSS  
+
+---
+
+## 📂 Folder Structure  
+
+    adminPanel/
+    assets/
+    structure/
+    pages/
+
+---
 
 
-⭐ Support
-If you like this project:
-⭐ Star the repository
-🍴 Fork it
-🤝 Contribute
+## 🔐 Admin Access  
+- Use credentials stored in database  
+
+---
+
+## 🚧 Known Issue  
+
+- Debug text present in `adminLogin.php`  
+  Remove:
+  
+    echo "Hello This si";
+
+---
+
+## 🚀 Future Improvements  
+
+- Add CSRF protection  
+- Improve validation & security  
+- Role-based access control (RBAC)  
+- Performance optimization  
+- Upgrade to Laravel / Next.js  
+
+---
+
+## 👨‍💻 Author  
+
+**Harish Nigam**
+
+---
+
+## ⭐ Support  
+
+- ⭐ Star the repository  
+- 🍴 Fork it  
+- 🤝 Contribute  
+
+---
